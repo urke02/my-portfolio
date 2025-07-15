@@ -355,3 +355,13 @@
   font-size: 24px;
   padding: 20px;
 }
+
+
+@media (max-width: 768px) {
+  .bodyAboutMe {
+    flex-direction: column;
+    height: auto; /* Umesto fiksnih 645px */
+    padding: 20px;
+    background: linear-gradient(180deg, #aba8a8 50%, black 50%);
+  }
+}
